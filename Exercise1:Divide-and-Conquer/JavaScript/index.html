@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h3>Exercise 1: Divide and Conquer Array Merge Sort</h3>
+        <script>
+            //given array for the merge sort
+            let array = [7, 6, 1, 5, 4, 3];
+            let element = 0;
+
+            //1. divide the array into two sub-parts
+            function recursiveDivide(array) {
+                console.log(array[element]);
+                if(array.length == 0) {
+                    return(array[element]);
+                }
+                else {
+                    recursiveDivide();
+                }
+            }
+
+            recursiveDivide(array);
+        </script>
+    </body>
+</html>
